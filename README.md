@@ -191,3 +191,23 @@ pwd, ls, cd, mkdir, touch, cp, mv, rm
 - La clé privée doit rester secrète.
 
 - La clé publique peut être ajoutée à des serveurs ou à GitHub pour permettre une authentification sans mot de passe.
+
+
+## Révision
+
+### Ce que je maîtrise
+
+- pwd
+- ls
+- cd
+- mkdir
+- touch
+- cp
+- mv
+- rm
+- chmod
+- chown
+- ssh
+- ssh-keygen
+
+- J'ai appris les bases de l'administration Linux. Je sais naviguer dans l'arborescence avec pwd, cd et ls, créer et gérer des fichiers avec mkdir, touch, cp, mv et rm. J'ai également étudié les permissions Linux avec chmod et chown, ainsi que la gestion des utilisateurs. Ensuite, j'ai découvert SSH pour l'administration à distance et j'ai généré une paire de clés SSH Ed25519 afin de comprendre l'authentification par clé publique et clé privée.
