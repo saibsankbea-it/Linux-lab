@@ -237,3 +237,38 @@ Ensuite je vérifie la route par défaut avec ip route.
 Je teste la connectivité avec ping 8.8.8.8.
 Enfin je teste la résolution DNS avec ping google.com.
 Cela me permet de distinguer un problème réseau, passerelle ou DNS.
+
+
+## Niveau 7 - Processus et services Linux
+
+### Commandes
+
+- ps
+- ps aux
+- top
+- kill
+- systemctl
+
+### Ce que j’ai appris
+
+Les processus représentent les programmes en cours d’exécution.
+
+Les services sont des processus système importants.
+
+On peut surveiller et gérer les processus avec des commandes Linux.
+ps affiche une photo instantanée des processus à un moment donné.
+top affiche les processus en temps réel, avec mise à jour continue.
+kill envoie un signal à un processus (souvent pour l’arrêter via son PID).
+
+Important :
+
+ce n’est pas toujours “tuer” directement
+ça peut envoyer d’autres signaux (restart, stop propre, etc.)
+systemctl permet de gérer les services système (start, stop, restart, status).
+
+Exemple :
+
+systemctl status ssh
+systemctl start ssh
+systemctl restart ssh
+
