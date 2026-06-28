@@ -211,3 +211,29 @@ pwd, ls, cd, mkdir, touch, cp, mv, rm
 - ssh-keygen
 
 - J'ai appris les bases de l'administration Linux. Je sais naviguer dans l'arborescence avec pwd, cd et ls, créer et gérer des fichiers avec mkdir, touch, cp, mv et rm. J'ai également étudié les permissions Linux avec chmod et chown, ainsi que la gestion des utilisateurs. Ensuite, j'ai découvert SSH pour l'administration à distance et j'ai généré une paire de clés SSH Ed25519 afin de comprendre l'authentification par clé publique et clé privée.
+
+## Niveau 6 - Réseaux Linux
+
+### Commandes
+
+- ip a
+- ip route
+- ping
+- hostname
+- hostname -I
+- cat /etc/resolv.conf
+
+### Ce que j’ai appris
+
+- Une machine a une adresse IP
+- La passerelle permet d’accéder à Internet
+- Le DNS traduit les noms (google.com → IP)
+- On peut diagnostiquer un problème réseau étape par étape
+
+
+Comment tu diagnostiques un problème réseau ?
+Je commence par vérifier l’adresse IP avec ip a.
+Ensuite je vérifie la route par défaut avec ip route.
+Je teste la connectivité avec ping 8.8.8.8.
+Enfin je teste la résolution DNS avec ping google.com.
+Cela me permet de distinguer un problème réseau, passerelle ou DNS.
