@@ -310,3 +310,20 @@ Diagnostic :
 
 4. Vérifier les erreurs système :
    journalctl -p err -n 20
+
+
+## Niveau 9 - Scripts Bash
+
+### Commandes utilisées
+
+- nano
+- chmod +x
+- ./script.sh
+- bash script.sh
+
+### Ce que j’ai appris
+
+Un script Bash permet d’automatiser des commandes Linux.
+
+Il est utilisé pour simplifier les tâches répétitives des administrateurs systèmes.
+
