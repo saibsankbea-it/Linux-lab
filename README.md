@@ -272,3 +272,39 @@ systemctl status ssh
 systemctl start ssh
 systemctl restart ssh
 
+## Niveau 8 - Logs système
+
+### Commandes
+
+- journalctl -n 20
+- journalctl -f
+- journalctl -u ssh
+- journalctl -p err
+- journalctl -b
+
+### Ce que j'ai appris
+
+Les logs permettent d'analyser les événements du système et de diagnostiquer les pannes.
+
+J'ai appris à consulter les journaux du système et ceux d'un service spécifique comme SSH.
+
+
+### Cas pratique
+
+Problème :
+
+Un utilisateur ne peut plus se connecter en SSH.
+
+Diagnostic :
+
+1. Vérifier l'état du service :
+   systemctl status ssh
+
+2. Si nécessaire, redémarrer le service :
+   sudo systemctl restart ssh
+
+3. Consulter les journaux du service :
+   journalctl -u ssh -n 30
+
+4. Vérifier les erreurs système :
+   journalctl -p err -n 20
