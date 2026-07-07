@@ -348,3 +348,17 @@ Il est utilisé pour simplifier les tâches répétitives des administrateurs sy
 ### Ce que j'ai appris
 
 Créer un script permettant de vérifier rapidement l'état d'un serveur Linux et de réaliser un premier diagnostic.
+
+## Niveau 11 - Cron
+
+### Commandes utilisées
+
+- systemctl status cron
+- crontab -l
+- crontab -e
+
+### Ce que j'ai appris
+
+- Comprendre le fonctionnement de Cron.
+- Planifier l'exécution automatique d'une commande.
+- Écrire le résultat dans un fichier de journal.
