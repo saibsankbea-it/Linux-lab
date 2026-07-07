@@ -327,3 +327,24 @@ Un script Bash permet d’automatiser des commandes Linux.
 
 Il est utilisé pour simplifier les tâches répétitives des administrateurs systèmes.
 
+## Niveau 10 - Surveillance d'un serveur Linux
+
+### Script créé
+
+- check_system.sh
+
+### Commandes utilisées
+
+- hostname
+- whoami
+- date
+- hostname -I
+- uptime
+- free -h
+- df -h
+- who
+- systemctl status ssh
+
+### Ce que j'ai appris
+
+Créer un script permettant de vérifier rapidement l'état d'un serveur Linux et de réaliser un premier diagnostic.
