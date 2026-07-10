@@ -362,3 +362,24 @@ Créer un script permettant de vérifier rapidement l'état d'un serveur Linux e
 - Comprendre le fonctionnement de Cron.
 - Planifier l'exécution automatique d'une commande.
 - Écrire le résultat dans un fichier de journal.
+
+## Niveau 12 - Utilisateurs et groupes
+
+### Commandes utilisées
+
+- whoami
+- id
+- groups
+- cat /etc/passwd
+- cat /etc/group
+- groupadd
+- adduser
+- usermod -aG
+
+### Ce que j'ai appris
+
+- Comprendre les utilisateurs Linux.
+- Comprendre les groupes.
+- Créer un utilisateur.
+- Ajouter un utilisateur à un groupe.
+- Vérifier les groupes d'un utilisateur.
