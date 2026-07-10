@@ -383,3 +383,19 @@ Créer un script permettant de vérifier rapidement l'état d'un serveur Linux e
 - Créer un utilisateur.
 - Ajouter un utilisateur à un groupe.
 - Vérifier les groupes d'un utilisateur.
+
+
+## Niveau 13 - Umask
+
+### Commandes utilisées
+
+- umask
+- touch
+- ls -l
+
+### Ce que j'ai appris
+
+- Comprendre le rôle du umask.
+- Savoir pourquoi les nouveaux fichiers ont certaines permissions.
+- Modifier temporairement le umask.
+- Comprendre son impact sur la sécurité.
